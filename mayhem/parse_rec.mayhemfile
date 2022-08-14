@@ -1,0 +1,7 @@
+project: pikkr
+target: parse-rec
+
+cmds:
+  - cmd: /parse_rec
+  - cmd: /parse_rec_no_inst @@
+    libfuzzer: false
